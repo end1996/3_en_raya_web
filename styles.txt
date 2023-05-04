@@ -1,0 +1,40 @@
+button {
+	width: 150px;
+	height: 150px;
+}
+
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 400px;
+	margin: auto;
+}
+
+body {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,9,121,1) 46%, rgba(0,212,255,1) 100%);
+	font-family: sans-serif;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+#reiniciar {
+	box-sizing: border-box;
+	height: 50px;
+	background-color: blue;
+	position: relative;
+	left: 635px;
+
+}
+
+#reiniciar:hover {
+	color: white;
+}
+
+footer {
+	text-align: center;
+}
